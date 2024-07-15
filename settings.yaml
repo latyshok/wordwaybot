@@ -1,0 +1,13 @@
+default:
+  DEBUG: false
+  DATABASES:
+    default:
+      ENGINE: django.db.backends.sqlite3
+      NAME: db.sqlite3
+  SENTRY:
+    dsn: null
+  TELEGRAM:
+    token: null
+  PROXY:
+    url: null
+    verify: true
